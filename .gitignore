@@ -1,5 +1,7 @@
-[Bb]in
-[Oo]bj
+*/LaravelOnPeachPie.Server/[Bb]in
+*/LaravelOnPeachPie.Server/[Oo]bj
+*/LaravelOnPeachPie/[Bb]in
+*/LaravelOnPeachPie/[Oo]bj
 [Tt]humbs.db
 *.user
 packages
