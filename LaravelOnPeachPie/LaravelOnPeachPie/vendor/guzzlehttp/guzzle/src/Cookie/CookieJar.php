@@ -111,17 +111,17 @@ class CookieJar implements CookieJarInterface
      */
     public function clear(?string $domain = null, ?string $path = null, ?string $name = null): void
     {
-        if (!$domain) {
+        if ($domain == null) {
             $this->cookies = [];
             return;
-        } elseif (!$path) {
+        } elseif ($path == null) {
             $this->cookies = \array_filter(
                 $this->cookies,
                 static function (SetCookie $cookie) use ($domain): bool {
                     return !$cookie->matchesDomain($domain);
                 }
             );
-        } elseif (!$name) {
+        } elseif ($name == null) {
             $this->cookies = \array_filter(
                 $this->cookies,
                 static function (SetCookie $cookie) use ($path, $domain): bool {

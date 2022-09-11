@@ -113,7 +113,7 @@ final class Message
      */
     public static function parseMessage(string $message): array
     {
-        if (!$message) {
+        if (empty($message)) {
             throw new \InvalidArgumentException('Invalid message');
         }
 

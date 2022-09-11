@@ -40,7 +40,8 @@ class PrepareBodyMiddleware
         // Add a default content-type if possible.
         if (!$request->hasHeader('Content-Type')) {
             if ($uri = $request->getBody()->getMetadata('uri')) {
-                if (is_string($uri) && $type = Psr7\MimeType::fromFilename($uri)) {
+                $type = Psr7\MimeType::fromFilename($uri);
+                if (is_string($uri) && $type != null) {
                     $modify['set_headers']['Content-Type'] = $type;
                 }
             }

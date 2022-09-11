@@ -1,0 +1,50 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/1.0.0-appv4868">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php;**/*.phar;" Exclude="$(DefaultExcludeItems);**/test/**;**/tests/**;**/*Test.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="doctrine\dbal\**" />
+    <Compile Remove="doctrine\deprecations\**" />
+    <Compile Remove="symfony\**" />
+    <None Remove="doctrine\dbal\**" />
+    <None Remove="doctrine\deprecations\**" />
+    <None Remove="symfony\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="dflydev\dot-access-data\src\Data.php" />
+    <Compile Remove="dflydev\dot-access-data\src\DataInterface.php" />
+    <Compile Remove="dflydev\dot-access-data\src\Exception\InvalidPathException.php" />
+    <Compile Remove="dflydev\dot-access-data\src\Util.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Constant.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Defined.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Divisibleby.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Even.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Null.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Odd.php" />
+    <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Sameas.php" />
+    <Compile Include="twig\twig\lib\Twig\SimpleTest.php" />
+    <Compile Include="twig\twig\lib\Twig\Test.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\ConstantTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\DefinedTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\DivisiblebyTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\EvenTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\NullTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\OddTest.php" />
+    <Compile Include="twig\twig\src\Node\Expression\Test\SameasTest.php" />
+    <Compile Include="twig\twig\src\TwigTest.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="twig\twig\.github\workflows\ci.yml" />
+    <None Include="twig\twig\.github\workflows\documentation.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="twig\twig\doc\" />
+  </ItemGroup>
+</Project>

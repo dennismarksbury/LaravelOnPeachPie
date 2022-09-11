@@ -41,7 +41,7 @@ class RouteNotDefinedSolutionProvider implements HasSolutionsForThrowable
 
         $suggestedRoute = $this->findRelatedRoute($missingRoute);
 
-        if ($suggestedRoute) {
+        if ($suggestedRoute != null) {
             return [
                 BaseSolution::create("{$missingRoute} was not defined.")
                     ->setSolutionDescription("Did you mean `{$suggestedRoute}`?"),

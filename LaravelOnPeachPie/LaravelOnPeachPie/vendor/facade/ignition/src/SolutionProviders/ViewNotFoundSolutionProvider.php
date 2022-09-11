@@ -41,7 +41,7 @@ class ViewNotFoundSolutionProvider implements HasSolutionsForThrowable
             ];
         }
 
-        if ($suggestedView) {
+        if ($suggestedView != null) {
             return [
                 BaseSolution::create("{$missingView} was not found.")
                     ->setSolutionDescription("Did you mean `{$suggestedView}`?"),

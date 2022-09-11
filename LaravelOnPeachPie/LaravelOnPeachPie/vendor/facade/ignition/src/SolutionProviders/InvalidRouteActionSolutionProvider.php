@@ -42,7 +42,7 @@ class InvalidRouteActionSolutionProvider implements HasSolutionsForThrowable
             ];
         }
 
-        if ($suggestedController) {
+        if ($suggestedController != null) {
             return [
                 BaseSolution::create("`{$invalidController}` was not found.")
                     ->setSolutionDescription("Controller class `{$invalidController}` for one of your routes was not found. Did you mean `{$suggestedController}`?"),

@@ -68,11 +68,18 @@ class CurlMultiHandler
     {
         $this->factory = $options['handle_factory'] ?? new CurlFactory(50);
 
+        $tmp = Utils::getenv('GUZZLE_CURL_SELECT_TIMEOUT') ?? '';
+
+        $selectTimeout = 0;
+        if (isset($tmp)) {
+            $selectTimeout = $tmp;
+        }
+
         if (isset($options['select_timeout'])) {
             $this->selectTimeout = $options['select_timeout'];
-        } elseif ($selectTimeout = Utils::getenv('GUZZLE_CURL_SELECT_TIMEOUT')) {
+        } elseif ($selectTimeout > 0) {
             @trigger_error('Since guzzlehttp/guzzle 7.2.0: Using environment variable GUZZLE_CURL_SELECT_TIMEOUT is deprecated. Use option "select_timeout" instead.', \E_USER_DEPRECATED);
-            $this->selectTimeout = (int) $selectTimeout;
+            $this->selectTimeout = $selectTimeout;
         } else {
             $this->selectTimeout = 1;
         }

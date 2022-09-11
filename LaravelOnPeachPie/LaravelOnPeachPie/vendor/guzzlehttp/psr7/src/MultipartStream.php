@@ -34,7 +34,7 @@ final class MultipartStream implements StreamInterface
      */
     public function __construct(array $elements = [], string $boundary = null)
     {
-        $this->boundary = $boundary ?: sha1(uniqid('', true));
+        $this->boundary = $boundary == null ? sha1(uniqid('', true)) : $boundary;
         $this->stream = $this->createStream($elements);
     }
 
@@ -117,7 +117,7 @@ final class MultipartStream implements StreamInterface
         // Set a default content-disposition header if one was no provided
         $disposition = $this->getHeader($headers, 'content-disposition');
         if (!$disposition) {
-            $headers['Content-Disposition'] = ($filename === '0' || $filename)
+            $headers['Content-Disposition'] = ($filename === '0' || !empty($filename))
                 ? sprintf(
                     'form-data; name="%s"; filename="%s"',
                     $name,
@@ -128,16 +128,18 @@ final class MultipartStream implements StreamInterface
 
         // Set a default content-length header if one was no provided
         $length = $this->getHeader($headers, 'content-length');
-        if (!$length) {
-            if ($length = $stream->getSize()) {
+        if (!isset($length)) {
+            $length = $stream->getSize();
+            if (isset($length)) {
                 $headers['Content-Length'] = (string) $length;
             }
         }
 
         // Set a default Content-Type if one was not supplied
         $type = $this->getHeader($headers, 'content-type');
-        if (!$type && ($filename === '0' || $filename)) {
-            if ($type = MimeType::fromFilename($filename)) {
+        if ($type == null && ($filename === '0' || !empty($filename))) {
+            $type = MimeType::fromFilename($filename);
+            if (isset($type)) {
                 $headers['Content-Type'] = $type;
             }
         }

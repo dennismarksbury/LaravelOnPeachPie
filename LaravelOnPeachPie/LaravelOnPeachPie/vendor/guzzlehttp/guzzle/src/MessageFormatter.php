@@ -58,7 +58,7 @@ class MessageFormatter implements MessageFormatterInterface
      */
     public function __construct(?string $template = self::CLF)
     {
-        $this->template = $template ?: self::CLF;
+        $this->template = $template;
     }
 
     /**
