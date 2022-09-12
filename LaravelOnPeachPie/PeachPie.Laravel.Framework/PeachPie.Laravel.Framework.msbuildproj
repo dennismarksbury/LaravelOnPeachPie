@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="doctrine\dbal\**" />
     <Compile Remove="doctrine\deprecations\**" />
+    <Compile Remove="filp\whoops\.github\**" />
     <Compile Remove="ramsey\collection\bin\**" />
     <Compile Remove="sebastian\code-unit\.psalm\**" />
     <Compile Remove="sebastian\complexity\.psalm\**" />
@@ -20,6 +21,7 @@
     <Compile Remove="tijsverkoyen\css-to-inline-styles\.github\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
+    <None Remove="filp\whoops\.github\**" />
     <None Remove="ramsey\collection\bin\**" />
     <None Remove="sebastian\code-unit\.psalm\**" />
     <None Remove="sebastian\complexity\.psalm\**" />
