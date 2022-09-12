@@ -9,8 +9,20 @@
   <ItemGroup>
     <Compile Remove="doctrine\dbal\**" />
     <Compile Remove="doctrine\deprecations\**" />
+    <Compile Remove="sebastian\code-unit\.psalm\**" />
+    <Compile Remove="sebastian\complexity\.psalm\**" />
+    <Compile Remove="sebastian\lines-of-code\.psalm\**" />
+    <Compile Remove="sebastian\object-enumerator\.psalm\**" />
+    <Compile Remove="sebastian\object-reflector\.psalm\**" />
+    <Compile Remove="sebastian\recursion-context\.psalm\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
+    <None Remove="sebastian\code-unit\.psalm\**" />
+    <None Remove="sebastian\complexity\.psalm\**" />
+    <None Remove="sebastian\lines-of-code\.psalm\**" />
+    <None Remove="sebastian\object-enumerator\.psalm\**" />
+    <None Remove="sebastian\object-reflector\.psalm\**" />
+    <None Remove="sebastian\recursion-context\.psalm\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dflydev\dot-access-data\src\Data.php" />
