@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="doctrine\dbal\**" />
     <Compile Remove="doctrine\deprecations\**" />
+    <Compile Remove="ramsey\collection\bin\**" />
     <Compile Remove="sebastian\code-unit\.psalm\**" />
     <Compile Remove="sebastian\complexity\.psalm\**" />
     <Compile Remove="sebastian\lines-of-code\.psalm\**" />
@@ -18,6 +19,7 @@
     <Compile Remove="swiftmailer\swiftmailer\.github\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
+    <None Remove="ramsey\collection\bin\**" />
     <None Remove="sebastian\code-unit\.psalm\**" />
     <None Remove="sebastian\complexity\.psalm\**" />
     <None Remove="sebastian\lines-of-code\.psalm\**" />
