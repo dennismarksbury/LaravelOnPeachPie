@@ -42,7 +42,7 @@
           "dependencies": {
             "Peachpie.App": {
               "target": "Package",
-              "version": "[1.0.0-appv4868, )"
+              "version": "[1.0.0-appv4870, )"
             }
           },
           "imports": [

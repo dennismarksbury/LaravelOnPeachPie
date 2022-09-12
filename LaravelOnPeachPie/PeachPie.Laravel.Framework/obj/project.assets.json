@@ -361,21 +361,21 @@
           "lib/netstandard2.0/NGettext.dll": {}
         }
       },
-      "Peachpie.App/1.0.0-appv4868": {
+      "Peachpie.App/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Library.Graphics": "1.0.0-appv4868",
-          "Peachpie.Library.MsSql": "1.0.0-appv4868",
-          "Peachpie.Library.MySql": "1.0.0-appv4868",
-          "Peachpie.Library.Network": "1.0.0-appv4868",
-          "Peachpie.Library.PDO": "1.0.0-appv4868",
-          "Peachpie.Library.Scripting": "1.0.0-appv4868",
-          "Peachpie.Library.XmlDom": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868"
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Library.Graphics": "1.0.0-appv4870",
+          "Peachpie.Library.MsSql": "1.0.0-appv4870",
+          "Peachpie.Library.MySql": "1.0.0-appv4870",
+          "Peachpie.Library.Network": "1.0.0-appv4870",
+          "Peachpie.Library.PDO": "1.0.0-appv4870",
+          "Peachpie.Library.Scripting": "1.0.0-appv4870",
+          "Peachpie.Library.XmlDom": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870"
         }
       },
-      "Peachpie.CodeAnalysis/1.0.0-appv4868": {
+      "Peachpie.CodeAnalysis/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
           "Devsense.Php.Parser": "8.1.8808",
@@ -414,7 +414,7 @@
           "lib/netstandard2.0/Peachpie.Compiler.Diagnostics.dll": {}
         }
       },
-      "Peachpie.Library/1.0.0-appv4868": {
+      "Peachpie.Library/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
           "BCrypt.Net-Next": "4.0.2",
@@ -423,7 +423,7 @@
           "Mono.Posix.NETStandard": "1.0.0",
           "NGettext": "0.6.6",
           "Peachpie.Library.RegularExpressions": "1.6.0",
-          "Peachpie.Runtime": "1.0.0-appv4868",
+          "Peachpie.Runtime": "1.0.0-appv4870",
           "Rationals": "1.4.0",
           "System.IO.FileSystem.AccessControl": "4.7.0",
           "System.IO.FileSystem.DriveInfo": "4.3.1",
@@ -436,11 +436,11 @@
           "lib/netstandard2.0/Peachpie.Library.dll": {}
         }
       },
-      "Peachpie.Library.Graphics/1.0.0-appv4868": {
+      "Peachpie.Library.Graphics/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868",
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870",
           "SixLabors.Fonts": "1.0.0-beta0013",
           "SixLabors.ImageSharp": "1.0.0",
           "SixLabors.ImageSharp.Drawing": "1.0.0-beta0010"
@@ -452,11 +452,11 @@
           "lib/netstandard2.0/Peachpie.Library.Graphics.dll": {}
         }
       },
-      "Peachpie.Library.MsSql/1.0.0-appv4868": {
+      "Peachpie.Library.MsSql/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868",
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870",
           "System.Data.SqlClient": "4.6.0"
         },
         "compile": {
@@ -466,12 +466,12 @@
           "lib/netstandard2.0/Peachpie.Library.MsSql.dll": {}
         }
       },
-      "Peachpie.Library.MySql/1.0.0-appv4868": {
+      "Peachpie.Library.MySql/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
           "MySqlConnector": "2.0.0",
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868"
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870"
         },
         "compile": {
           "lib/netstandard2.0/Peachpie.Library.MySql.dll": {}
@@ -480,11 +480,11 @@
           "lib/netstandard2.0/Peachpie.Library.MySql.dll": {}
         }
       },
-      "Peachpie.Library.Network/1.0.0-appv4868": {
+      "Peachpie.Library.Network/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868"
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870"
         },
         "compile": {
           "lib/netstandard2.0/Peachpie.Library.Network.dll": {}
@@ -493,11 +493,11 @@
           "lib/netstandard2.0/Peachpie.Library.Network.dll": {}
         }
       },
-      "Peachpie.Library.PDO/1.0.0-appv4868": {
+      "Peachpie.Library.PDO/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868"
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870"
         },
         "compile": {
           "lib/netstandard2.0/Peachpie.Library.PDO.dll": {}
@@ -515,14 +515,14 @@
           "lib/netstandard2.1/Peachpie.Library.RegularExpressions.dll": {}
         }
       },
-      "Peachpie.Library.Scripting/1.0.0-appv4868": {
+      "Peachpie.Library.Scripting/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
-          "Peachpie.CodeAnalysis": "1.0.0-appv4868",
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Library.XmlDom": "1.0.0-appv4868",
+          "Peachpie.CodeAnalysis": "1.0.0-appv4870",
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Library.XmlDom": "1.0.0-appv4870",
           "Peachpie.Microsoft.CodeAnalysis": "3.7.1",
-          "Peachpie.Runtime": "1.0.0-appv4868",
+          "Peachpie.Runtime": "1.0.0-appv4870",
           "System.Runtime.Loader": "4.3.0"
         },
         "compile": {
@@ -532,13 +532,13 @@
           "lib/netstandard2.0/Peachpie.Library.Scripting.dll": {}
         }
       },
-      "Peachpie.Library.XmlDom/1.0.0-appv4868": {
+      "Peachpie.Library.XmlDom/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.11.25",
           "Mvp.Xml.NetStandard": "1.1.1",
-          "Peachpie.Library": "1.0.0-appv4868",
-          "Peachpie.Runtime": "1.0.0-appv4868",
+          "Peachpie.Library": "1.0.0-appv4870",
+          "Peachpie.Runtime": "1.0.0-appv4870",
           "System.Security.Cryptography.Xml": "4.4.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XPath": "4.3.0",
@@ -611,7 +611,7 @@
           }
         }
       },
-      "Peachpie.Runtime/1.0.0-appv4868": {
+      "Peachpie.Runtime/1.0.0-appv4870": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.ObjectPool": "5.0.3",
@@ -2870,25 +2870,25 @@
         "ngettext.nuspec"
       ]
     },
-    "Peachpie.App/1.0.0-appv4868": {
-      "sha512": "QVyCG/MbIGteV6k0RyNE21d9oZpnLvmnZTdt20zI7rNtTydc0fFck/kbaJCgoikkbmgswLkXQAuThUyes1nHFg==",
+    "Peachpie.App/1.0.0-appv4870": {
+      "sha512": "gfmY/POoGugVeM/mabBvVhUgzK4KckDmrPx2tF84Q33sxonXqkCsKokqFMjaSB7oESZKjanCoy+xewv1f/iq7Q==",
       "type": "package",
-      "path": "peachpie.app/1.0.0-appv4868",
+      "path": "peachpie.app/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
-        "peachpie.app.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.app.1.0.0-appv4870.nupkg.sha512",
         "peachpie.app.nuspec"
       ]
     },
-    "Peachpie.CodeAnalysis/1.0.0-appv4868": {
-      "sha512": "0GFhGV6OJynkjOUgP2l2QWy7A6JCFs+tHbDOadctld3sbfNiiEvcZ9G6h/roIdFZzn1xs3tKg5L5HzHI8BlFjA==",
+    "Peachpie.CodeAnalysis/1.0.0-appv4870": {
+      "sha512": "m4CaXnTEegDymcKvN39vmRZHv+hhrzD1zQ44CSmAlnILXrIihS+IkIjTk4vRXM1CuSinQN1mQksirFTs7F55/Q==",
       "type": "package",
-      "path": "peachpie.codeanalysis/1.0.0-appv4868",
+      "path": "peachpie.codeanalysis/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.CodeAnalysis.dll",
         "lib/netstandard2.0/Peachpie.CodeAnalysis.xml",
-        "peachpie.codeanalysis.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.codeanalysis.1.0.0-appv4870.nupkg.sha512",
         "peachpie.codeanalysis.nuspec"
       ]
     },
@@ -2904,75 +2904,75 @@
         "peachpie.compiler.diagnostics.nuspec"
       ]
     },
-    "Peachpie.Library/1.0.0-appv4868": {
-      "sha512": "s4h55uBKVM2pVwHHNZNz+/WNErgFi77tpdkaPbxe8pY0UEX2xPjo12id6ZJV0/UT4dkzH3NAyMxEZtEs1EqQAA==",
+    "Peachpie.Library/1.0.0-appv4870": {
+      "sha512": "dtwmNwzXTSUh43jPvXLvascOwYJw0i5/myBiAvqAGpJZYzs6gqNg4VHFKhbPtI6gRJyAlx8FSfTnxKAfXrlchw==",
       "type": "package",
-      "path": "peachpie.library/1.0.0-appv4868",
+      "path": "peachpie.library/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.dll",
         "lib/netstandard2.0/Peachpie.Library.xml",
-        "peachpie.library.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.nuspec"
       ]
     },
-    "Peachpie.Library.Graphics/1.0.0-appv4868": {
-      "sha512": "d4pRT5yN1xg/2JTjPt3tkMnmmpCVn+5g7fzIAjjs00sl3pWoU+cFjPifF4vdQoqH9lo+n2TGvMidgRSyXQmFzw==",
+    "Peachpie.Library.Graphics/1.0.0-appv4870": {
+      "sha512": "BOqKEGImEjg8jak3Iz5ZlN0OZo+92JGS4baqV6lJs9llCqUsv4xmvbAE6N8oAKRRW6tXmwxx01ZJ1zPiyXY+QA==",
       "type": "package",
-      "path": "peachpie.library.graphics/1.0.0-appv4868",
+      "path": "peachpie.library.graphics/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.Graphics.dll",
         "lib/netstandard2.0/Peachpie.Library.Graphics.xml",
-        "peachpie.library.graphics.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.graphics.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.graphics.nuspec"
       ]
     },
-    "Peachpie.Library.MsSql/1.0.0-appv4868": {
-      "sha512": "QITQ3wv6vU5FHKKb2mP5zGwWboAq0RzXWFNBDuFvAuXDbOoKca+2ZYiGMltk/imdNRz1MFsWAHs37E7xXzEy3A==",
+    "Peachpie.Library.MsSql/1.0.0-appv4870": {
+      "sha512": "8DaWC6WeOmV1vdnf88oDmGg7B/YnL+FLVS0lV7k5h6R4VeilTJdfwj2ca976JkypsMATNNc/9S3aC7ZdH5MUAQ==",
       "type": "package",
-      "path": "peachpie.library.mssql/1.0.0-appv4868",
+      "path": "peachpie.library.mssql/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.MsSql.dll",
         "lib/netstandard2.0/Peachpie.Library.MsSql.xml",
-        "peachpie.library.mssql.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.mssql.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.mssql.nuspec"
       ]
     },
-    "Peachpie.Library.MySql/1.0.0-appv4868": {
-      "sha512": "ybzNEo2I/rrMcJKCmY1zdsL1/mJRcB0TeSG+8dO6mJU2nWCmAe5CoGLDFDlGSjxugsHXcqxd1qJSmGYez9myWg==",
+    "Peachpie.Library.MySql/1.0.0-appv4870": {
+      "sha512": "9Hby3i1B7u0ESbXOkHjz/bC0q10lxKNtXcwHqsZ59+YzDgvc968VdwpEoDooeMzZ7iJqDhJgwANElvG+z8rUwg==",
       "type": "package",
-      "path": "peachpie.library.mysql/1.0.0-appv4868",
+      "path": "peachpie.library.mysql/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.MySql.dll",
         "lib/netstandard2.0/Peachpie.Library.MySql.xml",
-        "peachpie.library.mysql.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.mysql.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.mysql.nuspec"
       ]
     },
-    "Peachpie.Library.Network/1.0.0-appv4868": {
-      "sha512": "JhYqRRt4qjyhrqO2kdv5znrz81nPZCdpZW1ri7xZWWxrk1HYHOKMycglQPeZeRwqI3vJmaQu1PikMUdYTOdJzg==",
+    "Peachpie.Library.Network/1.0.0-appv4870": {
+      "sha512": "YnEu4C9rDXDkFd1GOv1WAIfA1AkY4fjb39T5mXmN46cs5S80e0jvQiFfKnf2R8Ett0b63fAM2DtJJ7yVOYOtfw==",
       "type": "package",
-      "path": "peachpie.library.network/1.0.0-appv4868",
+      "path": "peachpie.library.network/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.Network.dll",
         "lib/netstandard2.0/Peachpie.Library.Network.xml",
-        "peachpie.library.network.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.network.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.network.nuspec"
       ]
     },
-    "Peachpie.Library.PDO/1.0.0-appv4868": {
-      "sha512": "GUK2wxKqOy1+AGD6QDf5Oxf5MYKJrSWztGOkpyY02D1wPYqweTA4IFaf1ix611YkTRKhpIEwLFptxAoLBH90bg==",
+    "Peachpie.Library.PDO/1.0.0-appv4870": {
+      "sha512": "mv3b98GY559sxSbVJqOmekqEs/gAWpAokBE0bMIOJ+swjvmt6q8BivybbOLNd06V9HNbLJxPHvSfa4Qae5qdZw==",
       "type": "package",
-      "path": "peachpie.library.pdo/1.0.0-appv4868",
+      "path": "peachpie.library.pdo/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.PDO.dll",
         "lib/netstandard2.0/Peachpie.Library.PDO.xml",
-        "peachpie.library.pdo.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.pdo.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.pdo.nuspec"
       ]
     },
@@ -2991,29 +2991,29 @@
         "peachpie.library.regularexpressions.nuspec"
       ]
     },
-    "Peachpie.Library.Scripting/1.0.0-appv4868": {
-      "sha512": "6KCM42wG7AyJPP9QDH9WjK8dZT6axK0KSd1O3EZEqjHhtNlX5H3oA/5Li4+JrrLc0sywKYciKrQVbcbkfa0+/g==",
+    "Peachpie.Library.Scripting/1.0.0-appv4870": {
+      "sha512": "SnS8qNx49XKTFWVih9BrnvzcY3NFIi5UX0P8ByfAkA3Y8/e0mvvfKPEemFAlvCfg/tMjF8Edu/WF5+ibvT7ybw==",
       "type": "package",
-      "path": "peachpie.library.scripting/1.0.0-appv4868",
+      "path": "peachpie.library.scripting/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/net461/Peachpie.Library.Scripting.dll",
         "lib/net461/Peachpie.Library.Scripting.xml",
         "lib/netstandard2.0/Peachpie.Library.Scripting.dll",
         "lib/netstandard2.0/Peachpie.Library.Scripting.xml",
-        "peachpie.library.scripting.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.scripting.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.scripting.nuspec"
       ]
     },
-    "Peachpie.Library.XmlDom/1.0.0-appv4868": {
-      "sha512": "l4XwZqW+lHd23m258vqxl49/LfQgZZQiH1L+F8rcRbSWQgVy7t3XHnZomIX5HaquxbizV8r5xoaYIQoPd2UjdQ==",
+    "Peachpie.Library.XmlDom/1.0.0-appv4870": {
+      "sha512": "D+BxNRDhve8ASB1OY7WIUm5wO0pEf3a1mIfldKvX0rjvgFswL0Rtd5j9HQ3Iz3LHd3XAOrIuP8tRFHI6m0reTQ==",
       "type": "package",
-      "path": "peachpie.library.xmldom/1.0.0-appv4868",
+      "path": "peachpie.library.xmldom/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Library.XmlDom.dll",
         "lib/netstandard2.0/Peachpie.Library.XmlDom.xml",
-        "peachpie.library.xmldom.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.library.xmldom.1.0.0-appv4870.nupkg.sha512",
         "peachpie.library.xmldom.nuspec"
       ]
     },
@@ -3045,15 +3045,15 @@
         "peachpie.microsoft.codeanalysis.nuspec"
       ]
     },
-    "Peachpie.Runtime/1.0.0-appv4868": {
-      "sha512": "XKhsmniJ1DKFhmyfujZWJsKRwUx4XVF6XdTawesj3BZTI03qFPVD6gnIYe/CYOXZ3+sorQi1Pr/RF5cPQWw8+w==",
+    "Peachpie.Runtime/1.0.0-appv4870": {
+      "sha512": "oSjqwtD8vAviDUHgcWGK+x1XsSPipIoCNrtpB5DRljlvrwvrb9dy101VUnBNsoyV19IJzlYpyrupJdyq3jQ7Xg==",
       "type": "package",
-      "path": "peachpie.runtime/1.0.0-appv4868",
+      "path": "peachpie.runtime/1.0.0-appv4870",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Peachpie.Runtime.dll",
         "lib/netstandard2.0/Peachpie.Runtime.xml",
-        "peachpie.runtime.1.0.0-appv4868.nupkg.sha512",
+        "peachpie.runtime.1.0.0-appv4870.nupkg.sha512",
         "peachpie.runtime.nuspec"
       ]
     },
@@ -7474,7 +7474,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Peachpie.App >= 1.0.0-appv4868"
+      "Peachpie.App >= 1.0.0-appv4870"
     ]
   },
   "packageFolders": {
@@ -7519,7 +7519,7 @@
         "dependencies": {
           "Peachpie.App": {
             "target": "Package",
-            "version": "[1.0.0-appv4868, )"
+            "version": "[1.0.0-appv4870, )"
           }
         },
         "imports": [
