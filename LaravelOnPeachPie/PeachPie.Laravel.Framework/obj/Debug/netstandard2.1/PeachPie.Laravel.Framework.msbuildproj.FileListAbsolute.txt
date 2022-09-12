@@ -1,6 +1,7 @@
-D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\obj\Debug\netstandard2.1\PeachPie.Laravel.Framework.msbuildproj.CoreCompileInputs.cache
 D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\bin\Debug\netstandard2.1\PeachPie.Laravel.Framework.deps.json
 D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\bin\Debug\netstandard2.1\PeachPie.Laravel.Framework.dll
 D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\bin\Debug\netstandard2.1\PeachPie.Laravel.Framework.pdb
+D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\obj\Debug\netstandard2.1\PeachPie.Laravel.Framework.msbuildproj.AssemblyReference.cache
+D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\obj\Debug\netstandard2.1\PeachPie.Laravel.Framework.msbuildproj.CoreCompileInputs.cache
 D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\obj\Debug\netstandard2.1\PeachPie.Laravel.Framework.dll
 D:\Data\LaravelOnPeachPie\LaravelOnPeachPie\PeachPie.Laravel.Framework\obj\Debug\netstandard2.1\PeachPie.Laravel.Framework.pdb
