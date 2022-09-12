@@ -9,18 +9,19 @@
   <ItemGroup>
     <Compile Remove="doctrine\dbal\**" />
     <Compile Remove="doctrine\deprecations\**" />
-    <Compile Remove="symfony\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
-    <None Remove="symfony\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dflydev\dot-access-data\src\Data.php" />
     <Compile Remove="dflydev\dot-access-data\src\DataInterface.php" />
     <Compile Remove="dflydev\dot-access-data\src\Exception\InvalidPathException.php" />
     <Compile Remove="dflydev\dot-access-data\src\Util.php" />
+    <Compile Remove="symfony\Bridge\Doctrine\HttpFoundation\DbalSessionHandlerSchema.php" />
+    <Compile Remove="symfony\Bridge\Doctrine\Logger\DbalLogger.php" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="symfony\var-dumper\Test\VarDumperTestTrait.php" />
     <Compile Include="twig\twig\lib\Twig\Node\Expression\Test.php" />
     <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Constant.php" />
     <Compile Include="twig\twig\lib\Twig\Node\Expression\Test\Defined.php" />
@@ -45,6 +46,8 @@
     <None Include="twig\twig\.github\workflows\documentation.yml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="symfony\Bridge\Doctrine\Logger\" />
+    <Folder Include="symfony\string\Resources\bin\" />
     <Folder Include="twig\twig\doc\" />
   </ItemGroup>
 </Project>

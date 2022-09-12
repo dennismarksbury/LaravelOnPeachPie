@@ -16,7 +16,9 @@ namespace Symfony\Component\EventDispatcher\Attribute;
  *
  * @author Alexander M. Turek <me@derrabus.de>
  */
-#[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
+
+// DM: Removed, .net compiler doesn't like this
+//#[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class AsEventListener
 {
     public function __construct(

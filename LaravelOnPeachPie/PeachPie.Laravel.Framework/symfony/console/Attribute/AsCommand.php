@@ -14,7 +14,9 @@ namespace Symfony\Component\Console\Attribute;
 /**
  * Service tag to autoconfigure commands.
  */
-#[\Attribute(\Attribute::TARGET_CLASS)]
+
+// DM: Removed, .net compiler doesn't like this
+//#[\Attribute(\Attribute::TARGET_CLASS)]
 class AsCommand
 {
     public function __construct(

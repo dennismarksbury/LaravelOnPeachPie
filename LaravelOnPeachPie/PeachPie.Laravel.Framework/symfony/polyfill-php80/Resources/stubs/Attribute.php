@@ -1,6 +1,7 @@
 <?php
 
-#[Attribute(Attribute::TARGET_CLASS)]
+// DM: Removed, .net compiler doesn't like this
+//#[Attribute(Attribute::TARGET_CLASS)]
 final class Attribute
 {
     public const TARGET_CLASS = 1;

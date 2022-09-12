@@ -19,7 +19,9 @@ namespace Symfony\Contracts\Service\Attribute;
  *
  * @author Alexander M. Turek <me@derrabus.de>
  */
-#[\Attribute(\Attribute::TARGET_METHOD | \Attribute::TARGET_PROPERTY)]
+
+// DM: Removed, .net compiler doesn't like this
+//#[\Attribute(\Attribute::TARGET_METHOD | \Attribute::TARGET_PROPERTY)]
 final class Required
 {
 }

@@ -14,7 +14,9 @@ namespace Symfony\Component\HttpKernel\Attribute;
 /**
  * Service tag to autoconfigure controllers.
  */
-#[\Attribute(\Attribute::TARGET_CLASS)]
+
+// DM: Removed, .net compiler doesn't like this
+//#[\Attribute(\Attribute::TARGET_CLASS)]
 class AsController
 {
     public function __construct()

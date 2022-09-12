@@ -19,7 +19,9 @@ use Symfony\Contracts\Service\ServiceSubscriberTrait;
  *
  * @author Kevin Bond <kevinbond@gmail.com>
  */
-#[\Attribute(\Attribute::TARGET_METHOD)]
+
+// DM: Removed, .net compiler doesn't like this
+//#[\Attribute(\Attribute::TARGET_METHOD)]
 final class SubscribedService
 {
     /**
