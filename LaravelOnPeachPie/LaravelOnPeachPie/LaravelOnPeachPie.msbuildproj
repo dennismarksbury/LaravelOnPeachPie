@@ -7,34 +7,7 @@
     <Compile Include="**/*.php;**/*.phar;" Exclude="$(DefaultExcludeItems);**/test/**;**/tests/**;**/*Test.php" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="vendor\fakerphp\**" />
-    <Compile Remove="vendor\phpunit\**" />
-    <None Remove="vendor\fakerphp\**" />
-    <None Remove="vendor\phpunit\**" />
-    <Compile Remove="vendor\mockery\mockery\library\Mockery\Adapter\Phpunit\**" />
-    <Compile Remove="vendor\nunomaduro\collision\src\Adapters\Phpunit\**" />
-    <Compile Remove="vendor\nunomaduro\collision\src\Contracts\Adapters\Phpunit\**" />
-    <Compile Remove="vendor\symfony\Bridge\PhpUnit\**" />
-    <Compile Remove="vendor\symfony\console\Tester\**" />
-    <None Remove="vendor\mockery\mockery\library\Mockery\Adapter\Phpunit\**" />
-    <None Remove="vendor\nunomaduro\collision\src\Adapters\Phpunit\**" />
-    <None Remove="vendor\nunomaduro\collision\src\Contracts\Adapters\Phpunit\**" />
-    <None Remove="vendor\symfony\Bridge\PhpUnit\**" />
-    <None Remove="vendor\symfony\console\Tester\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="vendor\doctrine\dbal\src\Connections\PrimaryReadReplicaConnection.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\ConsoleMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\JobMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\ListenerMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\MailMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\ModelMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Foundation\Console\NotificationMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Routing\Console\ControllerMakeCommand.php" />
-    <Compile Remove="vendor\laravel\framework\src\Illuminate\Routing\Console\MiddlewareMakeCommand.php" />
-    <Compile Remove="vendor\symfony\polyfill-iconv\bootstrap80.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="vendor\doctrine\dbal\src\Connections\" />
+    <Compile Remove="vendor\**" />
+    <None Remove="vendor\**" />
   </ItemGroup>
 </Project>
