@@ -17,6 +17,7 @@
     <Compile Remove="sebastian\object-reflector\.psalm\**" />
     <Compile Remove="sebastian\recursion-context\.psalm\**" />
     <Compile Remove="swiftmailer\swiftmailer\.github\**" />
+    <Compile Remove="tijsverkoyen\css-to-inline-styles\.github\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
     <None Remove="ramsey\collection\bin\**" />
@@ -27,6 +28,7 @@
     <None Remove="sebastian\object-reflector\.psalm\**" />
     <None Remove="sebastian\recursion-context\.psalm\**" />
     <None Remove="swiftmailer\swiftmailer\.github\**" />
+    <None Remove="tijsverkoyen\css-to-inline-styles\.github\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dflydev\dot-access-data\src\Data.php" />
