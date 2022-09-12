@@ -15,6 +15,7 @@
     <Compile Remove="sebastian\object-enumerator\.psalm\**" />
     <Compile Remove="sebastian\object-reflector\.psalm\**" />
     <Compile Remove="sebastian\recursion-context\.psalm\**" />
+    <Compile Remove="swiftmailer\swiftmailer\.github\**" />
     <None Remove="doctrine\dbal\**" />
     <None Remove="doctrine\deprecations\**" />
     <None Remove="sebastian\code-unit\.psalm\**" />
@@ -23,6 +24,7 @@
     <None Remove="sebastian\object-enumerator\.psalm\**" />
     <None Remove="sebastian\object-reflector\.psalm\**" />
     <None Remove="sebastian\recursion-context\.psalm\**" />
+    <None Remove="swiftmailer\swiftmailer\.github\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dflydev\dot-access-data\src\Data.php" />
