@@ -10,4 +10,7 @@
     <Compile Remove="vendor\**" />
     <None Remove="vendor\**" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeachPie.Laravel.Framework\PeachPie.Laravel.Framework.msbuildproj" />
+  </ItemGroup>
 </Project>

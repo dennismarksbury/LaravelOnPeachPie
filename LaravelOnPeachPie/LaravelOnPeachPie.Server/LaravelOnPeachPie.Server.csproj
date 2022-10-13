@@ -17,6 +17,7 @@
     <ProjectReference Include="..\LaravelOnPeachPie\LaravelOnPeachPie.msbuildproj">
       <PrivateAssets>None</PrivateAssets>
     </ProjectReference>
+    <ProjectReference Include="..\PeachPie.Laravel.Framework\PeachPie.Laravel.Framework.msbuildproj" />
   </ItemGroup>
 
 </Project>
